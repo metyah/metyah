@@ -1,0 +1,2741 @@
+/*Site by Chris Driscoll, dribbble.com/chrisddriscoll*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, nav, section, firstSection, credits, menu, time, mark, audio, video, canvas {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-size: 100%;
+  font-family: proxima-nova, 'Helvetica Neue', sans-serif;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, nav, section, credits, firstSection, audio, canvas, video {
+  display: block;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+}
+
+a img, img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+input, textarea, button, select {
+  margin: 0;
+  font-size: 100%;
+  line-height: normal;
+  vertical-align: baseline;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea {
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::selection {
+  background: #0683be;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #0683be;
+  color: #fff;
+}
+
+::-webkit-selection {
+  background: #0683be;
+  color: #fff;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #fffcf5;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: "futura-pt", Helvetica, sans-serif;
+  -webkit-tap-highlight-color: rgba(232, 76, 56, 0.38);
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.cloak {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.semi {
+  font-weight: 400;
+}
+
+.wrapper {
+  padding: 0 1.5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: block;
+  overflow: hidden;
+}
+
+#promotion {
+  width: 100%;
+  height: 240px;
+  background-color: #eb5055;
+  color: #fff;
+}
+
+.promowrapper{
+  padding: 0 4em !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#promotion h2{
+  padding-top: 50px;
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 16px;
+}
+
+#letter {
+  background-color: #043d5d !important;
+  width: 100%;
+  height: 100%;
+  color: #a6c7da;
+  font-family: "skolar", Georgia, sans-serif !important;
+}
+
+.letterwrapper {
+  padding: 6em 2.75em;
+  margin: 0 auto;
+  max-width: 40em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#letter p {
+  font-family: "skolar", Georgia, Helvetica, sans-serif;
+  width: 100%;
+  color: #a6c7da;
+  font-weight: 400;
+  font-size: 1em;
+  text-align: left;
+  margin-bottom: 1em;
+  line-height: 1.75em;
+}
+
+#letter .highfive {
+  color: #fff;
+  font-style: italic;
+}
+
+#letter br {
+  margin-bottom: 4em !important;
+}
+
+#letter blockquote {
+  padding: 0 1em;
+}
+
+#letter blockquote p {
+  color: #23b684;
+}
+
+#letter .rank {
+  font-weight: 600;
+  font-family: "futura";
+  color: #fff;
+}
+
+#letter a {
+  text-decoration: underline;
+}
+
+#reddit{
+  text-align: center;
+}
+
+#promotion a{
+  width: 100%;
+  color: #fff;
+  margin-top: 40px !important;
+  padding: 0px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+#promotion img{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 24px;
+  position: absolute;
+  right: 16px;
+  top: 20px;
+}
+
+.fat {
+  font-weight: 600;
+}
+
+.slideup {
+  display: none;
+}
+
+#credit {
+  background-color: #fffcf5;
+  text-align: center;
+}
+
+#cover {
+  background-color: #fffcf5;
+}
+#cover #buttons {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#cover #buttons #help {
+  background-color: #f3efe6;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  padding: 4px 0px;
+}
+#cover #buttons a {
+  color: #fff;
+  padding: 8px 8px;
+
+}
+#cover #buttons #buy {
+  background-color: #eb5055;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin-bottom: 0.5em;
+
+}
+#cover #buttons #buy:hover {
+  background-color: #68c39f;
+}
+#cover #buttons #press {
+  /*background-color: #222;*/
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  margin-bottom: 0.5em;
+  font-size: 0.75em;
+}
+#cover #buttons #press a:hover {
+  color: #eb5055;
+}
+#cover #buttons #press a {
+  color: #b5ac99;
+}
+#cover #buttons #support {
+  /*background-color: #222;*/
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  font-size: 0.75em;
+}
+#cover #buttons #support a:hover {
+  color: #eb5055;
+}
+#cover #buttons #support a {
+  color: #b5ac99;
+}
+#cover #buttons #twitter {
+  margin-top: 0.5em;
+  cursor: pointer;
+  -webkit-animation-name: Meditation;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+  -webkit-animation-play-state: running;
+  -moz-animation-name: Meditation;
+  -moz-animation-duration: 3s;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-delay: 0;
+  -moz-animation-play-state: running;
+}
+#cover .wrapper {
+  padding: 0 5%;
+  position: relative;
+  top: 50%;
+  margin-top: 0;
+  margin-top: -25%;
+}
+#cover #logocontainer {
+  padding: 0 30%;
+}
+#cover #down {
+  width: 100%;
+  float: left;
+}
+#cover #down a {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: 1.5em;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+#cover #down a:hover{
+  -webkit-transform: translate3d(0, 5px, 0);
+  -moz-transform: translate3d(0, 5px, 0);
+  -ms-transform: translate3d(0, 5px, 0);
+}
+#cover #logo {
+  float: left;
+  top: 25%;
+  
+  margin: 0 auto 20px auto;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+#cover h1 {
+  float: left;
+  width: 100%;
+  color: #222;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2.250em;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+#cover h2 {
+  float: left;
+  width: 100%;
+  color: #222;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+#cover #falling h1 {
+  text-align: center;
+  display: block;
+  z-index: 0;
+  font-size: 1.75em;
+}
+#cover #falling {
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+}
+#cover #falling .char1 {
+  margin-left: 20px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen 2.5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen 2.5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen 2.5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+}
+#cover #falling .char2 {
+  margin-left: 25px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen2 3.5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen2 3.5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen2 3.5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 1.5s;
+}
+#cover #falling .char3 {
+  margin-left: 0px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen 4.5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen 4.5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen 4.5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+}
+#cover #falling .char4 {
+  margin-left: -20px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen2 1.5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen2 1.5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen2 1.5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  -ms-animation-delay: 3.5s;
+}
+#cover #falling .char5 {
+  margin-left: -25px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen 2s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen 2s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen 2s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+}
+#cover #falling .char6 {
+  margin-left: -15px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen2 3s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen2 3s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen2 3s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+}
+#cover #falling .char7 {
+  margin-left: 15px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen 4s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen 4s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen 4s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -ms-animation-delay: 6s;
+}
+#cover #falling .char8 {
+  margin-left: 20px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen2 1s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen2 1s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen2 1s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  -ms-animation-delay: 7s;
+}
+#cover #falling .char9 {
+  margin-left: 0px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen 2s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen 2s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen 2s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+}
+#cover #falling .char10 {
+  margin-left: 0px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  -webkit-animation: fallen2 3s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: fallen2 3s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: fallen2 3s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 9s;
+  -moz-animation-delay: 9s;
+  -ms-animation-delay: 9s;
+}
+
+#about {
+  background-color: #449bb5;
+}
+#about .wrapper {
+  padding: 0 3%;
+  position: absolute;
+  top: 50%;
+  margin-top: -300px;
+}
+#about #trailer {
+  -webkit-transform: translate3d(0px, 300%, 0);
+  opacity: 1;
+  padding: 0 60px;
+  margin-left: -20px;
+  margin-top: -75%;
+  z-index: 999;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#about #trailer iframe {
+  opacity: 1;
+  border: 15px solid #222;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+#about #trailer a {
+  position: absolute;
+  margin-top: -25px;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: #222;
+  padding: 8px 12px;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+#about #vid {
+  position: absolute;
+  z-index: 1;
+  width: 20%;
+  left: 18%;
+  top: 18%;
+}
+#about #play {
+  width: 100%;
+}
+#about #armcontainer {
+  width: 50%;
+  padding: 10% 5% 0% 0%;
+}
+#about #arm {
+  z-index: 0;
+  display: block;
+  position: relative;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#about h1 {
+  font-size: 2.250em;
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-top: -215%;
+  padding-left: 15%;
+}
+#about h2 {
+  z-index: 1;
+  position: relative;
+  display: block;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  float: left;
+  padding-left: 15%;
+  line-height: 1em;
+}
+#about ul {
+  z-index: 1;
+  position: relative;
+  display: block;
+  padding-top: 1.5em;
+  float: left;
+  padding-left: 15%;
+}
+#about ul li {
+  z-index: 1;
+  list-style: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  padding-bottom: 0.75em;
+}
+@media screen and (min-width: 34em) {
+  #cover #falling h1 {
+    text-align: center;
+    display: block;
+    z-index: 0;
+    font-size: 1.75em;
+    position: absolute;
+    left: 50%;
+    margin-left: 80px;
+    margin-top: -2em;
+  }
+
+  #cover #falling {
+    margin: 0;
+
+    width: 100%;
+    position: absolute;
+    left: 50%;
+  }
+  #about .wrapper {
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+  }
+  #about #trailer {
+    position: absolute;
+    padding: 0px;
+    width: 380px;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -150px;
+    z-index: 999;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #about #trailer iframe {
+    border: 15px solid #222;
+    border-radius: 10px;
+  }
+  #about a#info {
+    position: absolute;
+    margin-top: -25px;
+    margin-right: -30px;
+    right: 0;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: #222;
+    padding: 8px 12px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+  }
+  #about #vid {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    left: 30%;
+    top: 5%;
+  }
+  #about #armcontainer {
+    width: 30%;
+    padding: 0;
+    position: relative;
+    float: left;
+    left: auto;
+    margin-left: 0px;
+  }
+  #about #arm {
+    top: 10%;
+    float: left;
+    display: block;
+    position: relative;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #about h1 {
+    font-size: 3em;
+    width: 50%;
+    float: left;
+    margin-top: -40px;
+    padding-left: 20px;
+  }
+  #about h2 {
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+  }
+  #about ul {
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+
+#tools {
+  background-color: #68c39f;
+}
+#tools .wrapper {
+  padding: 0 8%;
+  position: absolute;
+  top: 50%;
+  margin-top: -240px;
+}
+#tools h1 {
+  line-height: 1.2em;
+  width: 100%;
+  float: left;
+  z-index: 1;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+#tools ul {
+  z-index: 0;
+  position: relative;
+  display: block;
+  margin-top: -3em;
+  float: left;
+  -webkit-transform: translate3d(1000px, 0, 0);
+  -moz-transform: translate3d(1000px, 0, 0);
+  -ms-transform: translate3d(1000px, 0, 0);
+}
+#tools ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+#tools ul li:first-child {
+  display: none;
+}
+#tools ul li:last-child {
+  margin-right: 0px;
+}
+#tools ul li img {
+  margin-top: 1.5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+  -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+}
+#tools ul li img:hover {
+  -webkit-transform: translate3d(0, -20px, 0);
+  -moz-transform: translate3d(0, -20px, 0);
+  -ms-transform: translate3d(0, -20px, 0);
+}
+#tools #t-finger {
+  margin-right: -5px;
+}
+@media screen and (min-width: 34em) {
+  #tools .wrapper {
+    top: 50%;
+    margin-top: -200px;
+  }
+  #tools ul {
+    width: 100%;
+    margin-top: 0em;
+  }
+  #tools ul li {
+    float: left;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+  }
+  #tools ul li:first-child {
+    display: block;
+  }
+  #tools ul li:last-child {
+    margin-right: 0px;
+  }
+  #tools ul li img {
+    margin-top: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #tools #t-ipad {
+    width: 35%;
+  }
+  #tools #t-ipad img {
+    width: 100%;
+  }
+  #tools #t-finger {
+    width: 6%;
+    margin-right: 0px;
+    margin-top: 7%;
+  }
+  #tools #t-finger img {
+    width: 100%;
+  }
+  #tools #t-stylus {
+    width: 6%;
+    margin-top: 5%;
+  }
+  #tools #t-stylus img {
+    width: 100%;
+  }
+  #tools #t-dictionary {
+    width: 20%;
+    margin-top: -1%;
+  }
+  #tools #t-dictionary img {
+    width: 100%;
+  }
+  #tools #t-iphone {
+    width: 12%;
+    margin-top: 7%;
+  }
+  #tools #t-iphone img {
+    width: 100%;
+  }
+}
+
+#tutorial {
+  background-color: #fffcf5;
+}
+#tutorial .wrapper {
+  padding: 0 8%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -240px;
+}
+#tutorial h1 {
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+  color: #222;
+  text-align: center;
+  line-height: 1.2em;
+}
+#tutorial #tutcontainer {
+  padding: 0 5%;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 500px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tutorial img {
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#tutorial ul {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+#tutorial ul li {
+  list-style: none;
+  position: absolute;
+  width: 100%;
+}
+#tutorial ul li.tut {
+  opacity: 0;
+  display: block;
+  z-index: 1;
+}
+#tutorial ul li#tutbg {
+  opacity: 1;
+  display: block;
+  z-index: 0;
+}
+
+#brain {
+  background-color: #f5e653;
+}
+#brain .wrapper {
+  padding: 0 8%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -220px;
+}
+#brain h1 {
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+  line-height: 1.2em;
+  text-align: center;
+}
+#brain #braincontainer {
+  padding: 0 5%;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 400px;
+  z-index: 1;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#brain img {
+  opacity: 1;
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#brain #thoughts h1 {
+  font-weight: 400;
+  font-size: 4em;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-top: 2em;
+  z-index: 0;
+  color: #dccc1d;
+}
+#brain #thoughts .char1 {
+  margin-left: -20px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 5s infinite;
+  -ms-animation-timing-function: ease-in;
+
+}
+#brain #thoughts .char2 {
+  margin-left: -40px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+}
+#brain #thoughts .char3 {
+  margin-left: 20px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+}
+#brain #thoughts .char4 {
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+}
+#brain #thoughts .char5 {
+  margin-left: 40px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 9s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 9s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 9s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+}
+#brain #thoughts .char6 {
+  margin-left: 20px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+}
+#brain #thoughts .char7 {
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 10s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 10s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 10s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+}
+#brain #thoughts .char8 {
+  margin-left: -20px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 8s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 8s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 8s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+}
+#brain #thoughts .char9 {
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 8s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 8s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 8s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+}
+#brain #thoughts .char10 {
+  margin-left: -40px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 3s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 3s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 3s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+}
+#brain #thoughts .char11 {
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 8s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 8s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 8s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+}
+#brain #thoughts .char12 {
+  margin-left: -40px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 4s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 4s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 4s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+}
+#brain #thoughts .char13 {
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 5s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 5s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 5s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+}
+#brain #thoughts .char14 {
+  margin-left: -20px;
+  position: absolute;
+  text-align: center;
+  -webkit-animation: think 10s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: think 10s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: think 10s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+}
+
+#modes {
+  background-color: #68c39f;
+}
+#modes .wrapper {
+  padding: 0 8%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -210px;
+}
+#modes h1 {
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+  line-height: 1.2em;
+  text-align: left;
+  margin-bottom: 1em;
+}
+#modes h2 {
+  color: #25a278;
+  text-transform: uppercase;
+  font-size: 2.250em;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+}
+#modes p {
+  display: none;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5em;
+}
+
+#debate {
+  background-color: #eb5055;
+}
+#debate .wrapper {
+  padding: 0 8%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -160px;
+}
+#debate h1 {
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+  line-height: 1.2em;
+  text-align: center;
+}
+#debate h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+}
+#debate h2 {
+  float: left;
+  color: #bd3035;
+  text-transform: uppercase;
+  font-size: 2.250em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 18%;
+  margin-bottom: 2em;
+  line-height: 1em;
+}
+#debate #centerit {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  margin-top: 1em;
+  margin-left: 8%;
+}
+#debate #vs {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 550px;
+}
+#debate #debate1container {
+  float: left;
+  margin-left: -20px;
+  width: 40%;
+  max-width: 500px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: translate3d(-800px, 800px, 0) rotate(45deg);
+  -moz-transform: translate3d(-800px, 800px, 0) rotate(45deg);
+  -ms-transform: translate3d(-800px, 800px, 0) rotate(45deg);
+  -webkit-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -moz-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -ms-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -o-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  /* easeOutBack */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  /* easeOutBack */
+}
+#debate #debate2container {
+  float: left;
+  width: 40%;
+  max-width: 500px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: translate3d(800px, 800px, 0) rotate(-45deg);
+  -moz-transform: translate3d(800px, 800px, 0) rotate(-45deg);
+  -ms-transform: translate3d(800px, 800px, 0) rotate(-45deg);
+  -webkit-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -moz-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -ms-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -o-transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  transition: all 800ms cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  /* easeOutBack */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.1);
+  /* easeOutBack */
+}
+#debate img {
+  float: left;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#night {
+  background-color: #043d5d;
+}
+#night .wrapper {
+  padding: 0 4%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -200px;
+}
+#night h1 {
+  position: relative;
+  margin: 0 auto;
+  float: left;
+  width: 100%;
+  text-align: center;
+  line-height: 1.2em;
+  display: block;
+  z-index: 2;
+}
+#night #nightcontainer {
+  padding: 0 5%;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#night #nightcontainer img {
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#night .zzzcontainer img {
+  position: relative;
+  width: 20% !important;
+  display: block;
+  z-index: 1;
+}
+#night img#one {
+  opacity: 0;
+  margin-top: -34% !important;
+  -webkit-animation: sleep 6s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: sleep 6s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: sleep 6s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+}
+#night img#two {
+  opacity: 0;
+  margin-top: -34% !important;
+  -webkit-animation: sleep2 6s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: sleep2 6s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: sleep2 6s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+}
+#night img#three {
+  opacity: 0;
+  margin-top: -34% !important;
+  -webkit-animation: sleep 6s infinite;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation: sleep 6s infinite;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation: sleep 6s infinite;
+  -ms-animation-timing-function: ease-in;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+}
+#night .star {
+  width: 0;
+  height: 0;
+  border: 0.3em solid #f5e653;
+  border-top: 0.3em solid #f5e653;
+  border-left: 0.3em solid #f5e653;
+  border-bottom: 0.3em solid #f5e653;
+  border-radius: 0.3em;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  z-index: 0;
+}
+#night #hypernova {
+  left: -300px;
+  top: 100px;
+}
+#night #pulsar {
+  left: 300px;
+  top: 400px;
+}
+#night #centauri {
+  left: 100px;
+  top: 500px;
+}
+#night #polaris {
+  left: 50px;
+  top: -150px;
+}
+#night #canis {
+  left: -500px;
+  top: 450px;
+}
+#night #sirius {
+  left: -500px;
+  top: 100px;
+}
+#night #nebula {
+  left: -100px;
+  top: -100px;
+  opacity: 0.3;
+}
+#night #vulcan {
+  left: -150px;
+  top: 500px;
+  opacity: 0.3;
+}
+#night #carinae {
+  left: 400px;
+  top: 100px;
+  opacity: 0.3;
+}
+#night #helix {
+  left: 200px;
+  top: -100px;
+  opacity: 0.3;
+}
+#night #proxima {
+  left: 450px;
+  top: 200px;
+  opacity: 0.3;
+}
+#night #sun {
+  left: -200px;
+  top: 200px;
+  opacity: 0.3;
+}
+
+#review {
+  background-color: #fffcf5;
+}
+#review .wrapper {
+  padding: 0 8%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -270px;
+}
+#review h1 {
+  position: relative;
+  margin: 0 auto;
+  color: #222;
+  float: left;
+  width: 100%;
+  line-height: 1.2em;
+  text-align: center;
+  margin-bottom: 0em;
+}
+#review h2 {
+  width: 90%;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+}
+#review p {
+  font-size: 1em;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5em;
+}
+#review #buy {
+  float: left;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+#review #buy h1:hover {
+  color: #68c39f;
+}
+#review #appcontainer {
+  padding: 0 30%;
+  margin: 0 auto;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#review #appcontainer img {
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#review ul#quotes {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-top: 1em;
+}
+#review ul li {
+  list-style: none;
+  opacity: 0;
+  position: absolute;
+}
+#review .green {
+  color: #25a278;
+}
+#review .blue {
+  color: #449bb5;
+}
+#review .purple {
+  color: #222;
+}
+#review .red {
+  color: #eb5055;
+}
+
+@media screen and (min-width: 48em) {
+  #promotion {
+    width: 100%;
+    height: 180px;
+    background-color: #eb5055;
+    color: #fff;
+  }
+  #cover .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -90px;
+  }
+  #cover #covercontainer {
+    margin: 0 auto;
+    width: 48em;
+  }
+  #cover #logocontainer {
+    margin-left: 120px;
+    width: 150px;
+    float: left;
+    padding: 0;
+  }
+  #cover #logo {
+    float: left;
+    margin: 0;
+    padding: 0 24px;
+  }
+  #cover h1 {
+    margin: 0;
+    margin-top: 0.2em;
+    float: left;
+    width: 300px;
+  }
+  #cover h2 {
+    margin: 0;
+    float: left;
+    width: 400px;
+    text-align: left;
+  }
+  #cover #falling {
+    position: relative;
+    left: -250px;
+    top: 100px;
+  }
+
+  #about {
+    background-color: #449bb5;
+  }
+  #about .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -150px;
+  }
+  #about #vid {
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    width: auto;
+    top: 5em;
+  }
+  #about #play {
+    width: auto;
+  }
+  #about #armcontainer {
+    width: 328px;
+    padding: 0 !important;
+    position: relative;
+    float: left;
+    left: auto;
+    margin-left: 0px;
+  }
+  #about #arm {
+    z-index: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    top: auto;
+  }
+  #about #aboutcontainer {
+    margin: 0 auto;
+    width: 48em;
+  }
+  #about h1 {
+    font-size: 3em;
+    margin-top: 0.2em;
+    padding-left: 48px;
+  }
+  #about h2 {
+    font-size: 2.75em;
+    padding-left: 48px;
+  }
+  #about ul {
+    padding-left: 48px;
+  }
+
+  #tools .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -270px;
+  }
+  #tools #toolcontainer {
+    margin: 0 auto;
+    width: 48em;
+  }
+  #tools h1 {
+    line-height: 1.2em;
+    width: 40%;
+    float: left;
+    z-index: 1;
+    position: relative;
+    display: block;
+    text-align: left;
+  }
+  #tools ul {
+    width: 100%;
+    float: left;
+    margin-top: 0em;
+  }
+  #tools ul li {
+    float: left;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+  }
+  #tools ul li:first-child {
+    display: block;
+  }
+  #tools ul li:last-child {
+    margin-right: 0px;
+  }
+  #tools ul li img {
+    margin-top: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #tools #t-ipad {
+    width: 35%;
+  }
+  #tools #t-ipad img {
+    width: 100%;
+  }
+  #tools #t-finger {
+    width: 6%;
+    margin-right: 0px;
+    margin-top: 7%;
+  }
+  #tools #t-finger img {
+    width: 100%;
+  }
+  #tools #t-stylus {
+    width: 6%;
+    margin-top: 5%;
+  }
+  #tools #t-stylus img {
+    width: 100%;
+  }
+  #tools #t-dictionary {
+    width: 20%;
+    margin-top: -1%;
+  }
+  #tools #t-dictionary img {
+    width: 100%;
+  }
+  #tools #t-iphone {
+    width: 14%;
+    margin-top: 1%;
+  }
+  #tools #t-iphone img {
+    width: 100%;
+  }
+
+  #tutorial .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -260px;
+  }
+  #tutorial #tutcontainer {
+    padding: 0%;
+    width: 450px;
+  }
+
+  #brain .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -220px;
+  }
+  #brain #organcontainer {
+    margin: 0 auto;
+    width: 48em;
+  }
+  #brain h1 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2.6em;
+    float: left;
+    width: 50%;
+    line-height: 1.2em;
+    text-align: left;
+  }
+  #brain #braincontainer {
+    float: left;
+    padding: 24px;
+    margin: 0;
+    width: 50%;
+    max-width: 400px;
+  }
+  #brain img {
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+  }
+  #brain #thoughts h1 {
+    font-weight: 400;
+    font-size: 4em;
+    position: relative;
+    display: block;
+    margin-left: -320px;
+    margin-top: -100px;
+    text-align: center;
+    z-index: 0;
+    color: #dccc1d;
+  }
+
+  #modes .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -270px;
+  }
+  #modes #modecontainer {
+    margin: 0 auto;
+    width: 48em;
+    position: relative;
+  }
+  #modes h1 {
+    position: relative;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    line-height: 1.2em;
+    text-align: left;
+    margin-bottom: 1em;
+  }
+  #modes h2 {
+    position: relative;
+    color: #25a278;
+    float: left;
+    text-transform: uppercase;
+    font-size: 2.250em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    line-height: 1em;
+  }
+  #modes p {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5em;
+  }
+  #modes .mode {
+    position: relative;
+    width: 50%;
+    height: 200px;
+    float: left;
+    padding: 0;
+    padding-right: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  #debate .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -160px;
+  }
+  #debate #debatecontainer {
+    margin: 0 auto;
+    width: 48em;
+    position: relative;
+  }
+  #debate #centerit {
+    margin-left: 7%;
+  }
+
+  #night .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -150px;
+  }
+  #night #darkcontainer {
+    margin: 0 auto;
+    width: 48em;
+    position: relative;
+  }
+  #night h1 {
+    width: 20%;
+    margin-top: 1.5em;
+    text-align: left;
+  }
+  #night #nightcontainer {
+    padding: 0 5%;
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-top: 2em;
+    width: 50%;
+    max-width: 500px;
+  }
+
+  #review .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -160px;
+  }
+  #review #reviewcontainer {
+    margin: 0 auto;
+    width: 48em;
+    position: relative;
+  }
+  #review h1 {
+    position: relative;
+    margin: 0 auto;
+    color: #222;
+    float: left;
+    width: 100%;
+    line-height: 1.2em;
+    text-align: left;
+    margin-bottom: 0.3em;
+  }
+  #review h2 {
+    width: 90%;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+  }
+  #review p {
+    font-size: 1em;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5em;
+  }
+  #review #buy {
+    float: left !important;
+    position: relative;
+    display: block;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #review #appcontainer {
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  #review #appcontainer img {
+    float: left;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+  #review ul#quotes {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+    margin-top: 0em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 60.625em) {
+  #about #armcontainer {
+    padding: 0;
+    position: relative;
+    float: left;
+    left: auto;
+    margin-left: 0px;
+  }
+  #about #vid {
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    width: auto;
+    top: 5em;
+  }
+  #about #play {
+    width: auto;
+  }
+  #about #arm {
+    z-index: 0;
+    display: block;
+    position: relative;
+    width: 328px;
+    top: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #about #aboutcontainer {
+    margin: 0 auto;
+    width: 60.625em;
+  }
+  #about ul {
+    padding-left: 48px;
+    font-size: 1.2em;
+  }
+
+  #tools .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -140px;
+  }
+  #tools #toolcontainer {
+    margin: 0 auto;
+    width: 60.625em;
+  }
+  #tools h1 {
+    line-height: 1.2em;
+    width: 30%;
+    float: left;
+    z-index: 1;
+    position: relative;
+    display: block;
+    text-align: left;
+    margin-top: 1em;
+  }
+  #tools ul {
+    width: 70%;
+    float: left;
+    margin-top: 0em;
+    padding-left: 8%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #tools ul li {
+    float: left;
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+  }
+  #tools ul li:first-child {
+    display: block;
+  }
+  #tools ul li:last-child {
+    margin-right: 0px;
+  }
+  #tools ul li img {
+    margin-top: 1.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #tools #t-ipad {
+    width: 200px;
+  }
+  #tools #t-ipad img {
+    width: 100%;
+  }
+  #tools #t-finger {
+    width: 40px;
+    margin-right: 0px;
+    margin-top: 0;
+  }
+  #tools #t-finger img {
+    width: 100%;
+  }
+  #tools #t-stylus {
+    width: 38px;
+    margin-top: 0;
+  }
+  #tools #t-stylus img {
+    width: 100%;
+  }
+  #tools #t-dictionary {
+    width: 112px;
+    margin-top: 0;
+  }
+  #tools #t-dictionary img {
+    width: 100%;
+  }
+  #tools #t-iphone {
+    width: 82px;
+    margin-top: 0;
+  }
+  #tools #t-iphone img {
+    width: 100%;
+  }
+
+  #brain .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -160px;
+  }
+  #brain #organcontainer {
+    margin: 0 auto;
+    width: 60.625em;
+  }
+  #brain h1 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2.6em;
+    margin-left: 50px !important;
+    float: left;
+    width: 40%;
+    line-height: 1.2em;
+    text-align: left;
+  }
+  #brain #braincontainer {
+    float: left;
+    padding: 0px;
+    margin: 0;
+    margin-left: 140px !important;
+    width: 340px;
+  }
+  #brain img {
+    margin: 0;
+    width: 100%;
+    padding: 1em;
+  }
+  #brain #thoughts h1 {
+    font-weight: 400;
+    font-size: 4em;
+    position: relative;
+    display: block;
+    margin-left: -300px !important;
+    margin-top: -90px;
+    text-align: center;
+    z-index: 0;
+    color: #dccc1d;
+  }
+
+  #modes .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -210px;
+  }
+  #modes #modecontainer {
+    margin: 0 auto;
+    width: 60.625em;
+    position: relative;
+  }
+  #modes h1 {
+    position: relative;
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    line-height: 1.2em;
+    text-align: left;
+    margin-bottom: 0.4em;
+  }
+  #modes h2 {
+    position: relative;
+    color: #25a278;
+    float: left;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    line-height: 1em;
+  }
+  #modes p {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5em;
+  }
+  #modes .mode {
+    position: relative;
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  #night .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -170px;
+  }
+  #night #darkcontainer {
+    margin: 0 auto;
+    width: 60.625em;
+    position: relative;
+  }
+  #night h1 {
+    width: 20%;
+    margin-top: 1.5em;
+    text-align: left;
+  }
+  #night #nightcontainer {
+    float: right;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-top: -16em;
+    width: 100%;
+    max-width: auto;
+  }
+
+  #review .wrapper {
+    padding: 0 5.55%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -160px;
+  }
+  #review #reviewcontainer {
+    margin: 0 auto;
+    width: 60.625em;
+    position: relative;
+  }
+  #review h1 {
+    position: relative;
+    margin: 0 auto;
+    color: #222;
+    float: left;
+    width: 30%;
+    line-height: 1.2em;
+    text-align: left;
+    margin-bottom: 0.3em;
+  }
+  #review h2 {
+    width: 90%;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.75em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+  }
+  #review p {
+    font-size: 1em;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5em;
+  }
+  #review #buy {
+    float: left !important;
+    position: relative;
+    display: block;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #review #appcontainer {
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  #review #appcontainer img {
+    float: left;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+  #review ul#quotes {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+    margin-top: 0em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+.expelliarmis {
+  -webkit-transition: all 500ms cubic-bezier(0.6, 0, 0.735, 0.045);
+  /* older webkit */
+  -webkit-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -moz-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -ms-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -o-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  /* easeInBack */
+  -webkit-transition-timing-function: cubic-bezier(0.6, 0, 0.735, 0.045);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -moz-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -ms-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -o-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  /* easeInBack */
+  -webkit-transform: translate3d(0px, 100%, 0);
+  -moz-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0px, 100%, 0);
+}
+
+.crucio {
+  -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  /* Firefox 4 */
+  -webkit-transition-delay: 0.5s;
+  /* Safari and Chrome */
+  -o-transition-delay: 0.5s;
+  /* Opera */
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+}
+
+.revello {
+  -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  /* Firefox 4 */
+  -webkit-transition-delay: 0.5s;
+  /* Safari and Chrome */
+  -o-transition-delay: 0.5s;
+  /* Opera */
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  -moz-transform: translate3d(0, 0, 0) !important;
+  -ms-transform: translate3d(0, 0, 0) !important;
+}
+
+.impervius {
+  -webkit-transition: all 500ms cubic-bezier(0.6, 0, 0.735, 0.045);
+  /* older webkit */
+  -webkit-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -moz-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -ms-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -o-transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  /* easeInBack */
+  -webkit-transition-timing-function: cubic-bezier(0.6, 0, 0.735, 0.045);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -moz-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -ms-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -o-transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  /* easeInBack */
+  -webkit-transform: translate3d(0px, 300%, 0);
+  -moz-transform: translate3d(0, 300%, 0);
+  -ms-transform: translate3d(0px, 300%, 0);
+}
+
+.disillusionment {
+  opacity: 0;
+  -webkit-transition: all 300ms;
+  /* older webkit */
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  /* easeInBack */
+}
+
+.incendo {
+  opacity: 1;
+  transition-delay: 0.5s;
+  -moz-transition-delay: 0.5s;
+  /* Firefox 4 */
+  -webkit-transition-delay: 0.5s;
+  /* Safari and Chrome */
+  -o-transition-delay: 0.5s;
+  /* Opera */
+  -webkit-transition: all 300ms;
+  /* older webkit */
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  /* easeInBack */
+}
+
+.toolsactive {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0px, 0) !important;
+  -moz-transform: translate3d(0, 0px, 0) !important;
+  -ms-transform: translate3d(0, 0px, 0) !important;
+  -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+}
+
+.player1 {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0px, 0) rotate(0) !important;
+  -moz-transform: translate3d(0, 0px, 0) rotate(0) !important;
+  -ms-transform: translate3d(0, 0px, 0) rotate(0) !important;
+  -webkit-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+}
+
+.player2 {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0px, 0) rotate(0) !important;
+  -moz-transform: translate3d(0, 0px, 0) rotate(0) !important;
+  -ms-transform: translate3d(0, 0px, 0) rotate(0) !important;
+  -webkit-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 900ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* easeOutBack */
+}
+
+@-webkit-keyframes think {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale(0.2) rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0px, -400px, 0px) scale(1);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes sleep {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-50px, -400px, 0) scale(1) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes sleep2 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-20px, -400px, 0) scale(1) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fallen {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 0;
+  }
+  10% {
+    -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 400px, 0) scale(1) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fallen2 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 0;
+  }
+  10% {
+    -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 400px, 0) scale(1) rotate(-180deg);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes think {
+  0% {
+    -moz-transform: translate3d(0, 0, 0) scale(0.2) rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -moz-transform: translate3d(0, -400px, 0) scale(1);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes sleep {
+  0% {
+    -moz-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    -moz-transform: translate3d(-50px, -400px, 0) scale(1) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes sleep2 {
+  0% {
+    -moz-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    -moz-transform: translate3d(-20px, -400px, 0) scale(1) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+
+@-webkit-keyframes Meditation {
+  0% {
+    -webkit-transform: translate(0, -5);
+  }
+  50% {
+    -webkit-transform: translate(0, 5px);
+  }
+  100% {
+    -webkit-transform: translate(0, -5);
+  }
+}
+
+@-moz-keyframes Meditation {
+  0% {
+    -moz-transform: translate(0, -5);
+  }
+  50% {
+    -moz-transform: translate(0, 5px);
+  }
+  100% {
+    -moz-transform: translate(0, -5);
+  }
+}
+
+@-moz-keyframes closepromotion {
+  0% {
+    -moz-transform: translate3d(0, 0, 0) scale(1) rotate(0);
+    opacity: 1;
+  }
+
+  100% {
+    -moz-transform: translate3d(0, -400px, 0) scale(1);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  @-webkit-keyframes think {
+    0% {-webkit-transform: translate3d(0px, 0px, 0px) scale(0.2) rotate(0);opacity: 1;}
+
+    100% {-webkit-transform: translate3d(400px, -400px, 0px) scale(1); opacity: 0;}
+}
+
+  @-moz-keyframes think {
+    0% {
+      -moz-transform: translate3d(0, 0, 0) scale(0.2) rotate(0);
+      opacity: 1;
+    }
+
+    100% {
+      -moz-transform: translate3d(400px, -400px, 0) scale(1);
+      opacity: 0;
+    }
+}
+
+
+}
